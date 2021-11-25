@@ -1,0 +1,13 @@
+Abstract (Soyut) Sınıf
+
+inheritence + interface = abstract class
+
+Ortak özellikleri olan nesneleri modellemek için Java dilinde soyut sınıflar kullanılır. Soyut sınıflardan
+interface sınıflarında olduğu gibi somut nesneler oluşturulamaz
+
+Abstract class, ortak özellikleri olan nesneleri bir çatı altında toplamak için kullanılır
+
+Sınıfın önüne "abstract" sözcüğü yazılarak soyuutlaştırma işlemi yapılır. Abstract sınıftan kalıtım almak için de "extends" kullanılır.
+
+Bir class sadece bir abstract class extends edebilir
+devamı slaytta

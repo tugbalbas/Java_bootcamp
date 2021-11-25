@@ -1,0 +1,30 @@
+ŞABLON,LİSTE -> INTERFACE - implements
+1- Bir sınıfta olması gereken methodları tanımlayan yapıdır
+
+2- Arayüz, interface anahtar sözcüğü ile tanımlanır. Arayüz sadece method isim ve parametrelerini belirtir.
+BUna methodun imzası (Signature Member) denir.
+(2 özel durum var: default ve static)
+
+3- Interfaceler, anlık (instance) değişkenler içeremez. Bu sebeple sadece final veya final static tipi değişkenler içerir
+BU demektir ki, arayüzde tanımlanan değişkenler, onu çağıran sınıflar tarafından değiştirilemez ve mutlaka başlangıç değerini
+atanmasını zorunlu kılar
+
+4- Arayüz yalnızca public veya default erişim anahtarı alabilir diğerlerini alamazlar
+
+5- Public damgalı arayüz, public damgalı class gibidir. Her kod ona erişebilir.
+
+6- Arayüz publicse, içindeki bütün methodlar ve değişkenler otomatik olarak public olur
+
+7- Bir sınıf birdden çok arayüzü çağırabilir (implement)
+
+8- Bir arayüzden direkt bir nesne üretimi yapılamaz. Fakat implement sınıf üzerinden dolaylı yoldan nesne üretimi yapılabilir (POLYMORPHISM)
+
+9- Interface data saklamaz ancak classlar saklayabilir (static değişken id gibi artan)
+
+10- Interfaceler constructor method içeremez
+
+
+Interfaceleri yönetici yapıyor, içlerini yazılımcı dolduruyor
+
+Once interfaceler yazılır, super class, normal classlar en son yazılır
+ekran bağlantıları,USBler,tüm girişler
